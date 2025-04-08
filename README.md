@@ -1,4 +1,19 @@
-##🚀 Backend API - Gestión Integral de Seguridad en Entornos Industriales
+## Use of LoRa Devices to Monitor Personal Protective Equipment (PPE)
+📡 IoT Safety Monitoring API — Device Management, Security, and Real-Time Reporting 🚀
+
+A personal project developed in Java Spring Boot, designed for real-time monitoring of safety devices using LoRa technology and integration with external systems like the weather API and Moodle.
+
+👉 Objective: To facilitate the supervision of employees, devices, and environmental conditions by generating automatic alerts and detailed reports for immediate decision-making.
+
+## Uso de dispositivos LoRa para monitorizar equipos de protección individual (EPIs) 
+📡 IoT Safety Monitoring API — Gestión de Dispositivos, Seguridad y Reportes en Tiempo Real 🚀
+
+Proyecto personal desarrollado en Java Spring Boot, diseñado para la monitorización en tiempo real de dispositivos de seguridad mediante tecnología LoRa e integración con sistemas externos como API de clima y Moodle.
+
+👉 Objetivo: Facilitar la supervisión de empleados, dispositivos y condiciones ambientales, generando alertas automáticas y reportes detallados para la toma de decisiones inmediatas
+
+
+##🚀 Backend API
 
     Proyecto backend desarrollado en Java Spring Boot, diseñado para integrar datos de dispositivos IoT (LoRa), climatología,
     actividades operativas y formación del personal para la gestión inteligente de alertas y prevención de riesgos laborales.
