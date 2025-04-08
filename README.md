@@ -1,13 +1,15 @@
-🚀 Backend API - Gestión Integral de Seguridad en Entornos Industriales
+##🚀 Backend API - Gestión Integral de Seguridad en Entornos Industriales
 
-    Proyecto backend desarrollado en Java Spring Boot, diseñado para integrar datos de dispositivos IoT (LoRa), climatología, actividades operativas y formación del personal para la gestión inteligente de alertas y prevención de riesgos laborales.
+    Proyecto backend desarrollado en Java Spring Boot, diseñado para integrar datos de dispositivos IoT (LoRa), climatología,
+    actividades operativas y formación del personal para la gestión inteligente de alertas y prevención de riesgos laborales.
 
     ⚙️ Preparado para escalabilidad, fácil integración con frontend Angular y pensado para entornos de formación y simulación.
 
 🧩 Funcionalidades principales
 
     Alertas Inteligentes
-    Generación automática de alertas en base a condiciones meteorológicas y datos en tiempo real de los dispositivos de protección individual.
+    Generación automática de alertas en base a condiciones meteorológicas y datos en tiempo real de los dispositivos 
+    de protección individual.
 
     Gestión de Dispositivos LoRa 📡
     Control total sobre los dispositivos conectados: registro, actualización y eliminación.
@@ -19,7 +21,8 @@
     Integración de datos climáticos externos para contextualizar las condiciones de trabajo.
 
     Formación y Reportes
-    Gestión de empleados y sus cursos de formación vinculados mediante API externa (Moodle). Generación de reportes personalizados.
+    Gestión de empleados y sus cursos de formación vinculados mediante API externa (Moodle). Generación de 
+    reportes personalizados.
 
 🌐 Arquitectura de la API
 
@@ -113,7 +116,8 @@
 
 🤝 Contribuciones
 
-Este proyecto fue diseñado para aprendizaje y práctica avanzada de arquitecturas limpias de microservicios y API RESTful, pero está abierto a mejoras y colaboraciones.
+Este proyecto fue diseñado para aprendizaje y práctica avanzada de arquitecturas limpias 
+de microservicios y API RESTful, pero está abierto a mejoras y colaboraciones.
 📬 Contacto
 
     ¿Te interesa colaborar, extender funcionalidades o tienes feedback?
@@ -122,7 +126,8 @@ Este proyecto fue diseñado para aprendizaje y práctica avanzada de arquitectur
     
     
     # TFM API Rest
-## Uso de dispositivos LoRa para monitorizar equipos de protección individual (EPIs) por medio de una infraestructura de computación en la nube
+## Uso de dispositivos LoRa para monitorizar equipos de protección individual (EPIs) 
+por medio de una infraestructura de computación en la nube
 
 ## Crear imagen docker
 Ejecutar desde el directorio raíz
