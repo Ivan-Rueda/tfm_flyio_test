@@ -1,0 +1,32 @@
+[
+    {
+        "tipo": "Alerta de Test Semilla",
+        "atendido": false,
+        "descripcion": "Una alerta normal",
+        "latitud": 39.464141,
+        "longitud": -0.375702,
+        "macDispositivo": "NJ3456789",
+        "createdAt": "2024-08-10T14:05:21.604Z",
+        "updatedAt": "2024-08-10T14:05:21.604Z"
+    },
+    {
+        "tipo": "Alerta de Test Semilla",
+        "atendido": true,
+        "descripcion": "Una alerta normal",
+        "latitud": 39.464141,
+        "longitud": 1.375702,
+        "macDispositivo": "FR3456789",
+        "createdAt": "2024-08-12T14:05:21.604Z",
+        "updatedAt": "2024-08-12T14:10:56.914Z"
+    },
+    {
+        "tipo": "Alerta de Test Semilla",
+        "atendido": false,
+        "descripcion": "Una alerta normal",
+        "latitud": 39.464141,
+        "longitud": 1.375702,
+        "macDispositivo": "FR3456789",
+        "createdAt": "2024-08-10T00:00:21.604Z",
+        "updatedAt": "2024-08-10T00:00:21.604Z"
+    }
+]

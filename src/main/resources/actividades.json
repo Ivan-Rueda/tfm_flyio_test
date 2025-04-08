@@ -1,0 +1,18 @@
+[
+    {
+        "empleado": {
+            "id": "66db8431a57d122f3b157act1",
+            "nombres": "Carolina",
+            "apellidos": "Saenz",
+            "n_telefono": "455112365",
+            "email": "carolina@saenz.com"
+        },
+        "dispositivo": {
+            "id": "66d1cc8dafee9f12ca7cmac2",
+            "mac": "FR3456789",
+            "modelo": "Heltec V3" 
+        },
+        "tarea": "Armado de estructura para escaleras de entrada.",
+        "recomendaciones": "Uso del casco protector y guantes. Área con movimiento de carga pesada. Trabajo en exterior que puede requerir protección adicional y ser conciente del entorno."
+    }
+]

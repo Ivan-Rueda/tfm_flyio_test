@@ -1,0 +1,14 @@
+[
+    {
+        "id": "66d1cc8dafee9f12ca7cmac1",
+        "mac": "NJ3456789",
+        "fabricante": "Heltec US",
+        "modelo": "LoRa V3"
+    },
+    {
+        "id": "66d1cc8dafee9f12ca7cmac2",
+        "mac": "FR3456789",
+        "fabricante": "Helctec FR",
+        "modelo": "LoRa V3"
+    }
+]

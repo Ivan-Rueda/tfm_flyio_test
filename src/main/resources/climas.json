@@ -1,0 +1,11 @@
+[
+    {
+        "latitud": 39.46414,
+        "longitud": -0.375702,
+        "createdAt": "2024-08-12T14:50:00.889Z",
+        "temperatura": 30,
+        "humedad": 27,
+        "viento": 17,
+        "uv": 5
+    }
+]

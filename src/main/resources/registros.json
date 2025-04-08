@@ -1,0 +1,14 @@
+[
+    {
+        "latitud": 39.464141,
+        "longitud": 1.375702,
+        "createdAt": "2024-08-12T15:08:05.749Z",
+        "macDispositivo": "FR3456789",
+        "resultados": {
+            "uso": false,
+            "movimiento": true,
+            "temperatura": 7
+        },
+        "rssi": 1.2
+    }
+]

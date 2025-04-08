@@ -1,0 +1,22 @@
+#* Crear el CronJob que utiliza el ConfigMap con el script
+
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: alerta-cronjob
+  namespace: ns-tfm #TODO Cambiar
+spec:
+  schedule: "5 * * * *"  # Programa para ejecutar cada hora con 5 minutos
+  concurrencyPolicy: Replace
+  successfulJobsHistoryLimit: 6
+  failedJobsHistoryLimit: 4
+  jobTemplate:
+    spec:
+      backoffLimit: 3
+      template:
+        spec:
+          containers:
+          - name: alerta-script
+            image: irueda/alerta-job:1 # Imagen con bash, curl y jq
+            command: ["/bin/bash", "-c", "/usr/local/bin/alerta.sh"]
+          restartPolicy: OnFailure

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "66d1cc8dafee9f12ca7c05b2",
+        "nombres": "Carolina",
+        "apellidos": "Saenz",
+        "dni": "X788778D",
+        "n_telefono": "455112365",
+        "email": "carolina@saenz.com",
+        "id_moodle": "2",
+        "cursos": [
+            {
+                "id": "2",
+                "nombre": "EPIs 101",
+                "aprobado": true
+            }
+        ]
+    },
+    {
+        "id": "66d1cc8dafee9f12ca7c05b2",
+        "nombres": "Juan",
+        "apellidos": "Saenz",
+        "dni": "X123456P",
+        "n_telefono": "455112365",
+        "email": "juan@saenz.com",
+        "id_moodle": "3",
+        "cursos": [
+            {
+                "id": "2",
+                "nombre": "EPIs 101",
+                "aprobado": true
+            }
+        ]
+    }
+
+]

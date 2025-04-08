@@ -1,0 +1,22 @@
+#* Crear el CronJob que utiliza el ConfigMap con el script
+
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: clima-cronjob
+  namespace: ns-tfm #TODO Cambiar
+spec:
+  schedule: "0 * * * *"  # Programa para ejecutar cada hora
+  concurrencyPolicy: Replace
+  successfulJobsHistoryLimit: 6
+  failedJobsHistoryLimit: 4
+  jobTemplate:
+    spec:
+      backoffLimit: 3
+      template:
+        spec:
+          containers:
+          - name: clima-script
+            image: irueda/clima-job:1 # Imagen con bash, curl y jq
+            command: ["/bin/bash", "-c", "/usr/local/bin/clima.sh"]
+          restartPolicy: OnFailure

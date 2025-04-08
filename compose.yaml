@@ -1,0 +1,9 @@
+services:
+  mongodb:
+    image: 'mongo:5'
+    environment:
+      - 'MONGO_INITDB_DATABASE=apiDB'
+      - 'MONGO_INITDB_ROOT_PASSWORD=apiPassword'
+      - 'MONGO_INITDB_ROOT_USERNAME=apiUser'
+    ports:
+      - '27017'
